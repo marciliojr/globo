@@ -35,3 +35,22 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### Cursor ###
+.cursor/
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Logs e temporários ###
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+
+### Variáveis de ambiente (evitar secrets no repositório) ###
+.env
+.env.local
+.env.*.local
