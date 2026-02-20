@@ -1,0 +1,19 @@
+# Portas dos serviços (sem conflito entre si)
+server:
+  port: 8081
+
+spring:
+  application:
+    name: assinatura
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/assinatura_db
+  kafka:
+    bootstrap-servers: localhost:9092
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
