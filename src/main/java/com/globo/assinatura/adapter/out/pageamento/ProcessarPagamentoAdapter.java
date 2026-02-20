@@ -14,7 +14,7 @@ public class ProcessarPagamentoAdapter implements ProcessarPagamentoPort {
 
     @Override
     public void processarPagamento(Assinatura assinatura) throws ErroPagamentoException {
-        if (random.nextInt(100) < 10) {
+        if (random.nextInt(100) < 50) { //por medida demonstrativa metade das vezes ele vai dar erro
             throw new ErroPagamentoException();
         }
         
